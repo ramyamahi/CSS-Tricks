@@ -1,0 +1,26 @@
+body {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: #2b2d2f;
+}
+.ball {
+  position: relative;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-image: linear-gradient(#fff, #000);
+  top: 0;
+  left: 0;
+  /*   transform-style: preserve-3d; */
+  animation: bounce 2s ease infinite;
+}
+
+@keyframes bounce {
+  0% {
+  }
+  50% {
+    top: 400px;
+    /*     transform: rotate(-90deg); */
+  }
+}
